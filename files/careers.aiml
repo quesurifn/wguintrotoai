@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>WEBDEV</pattern>
+	    <template>
+	        You'd be a great webdev! You're a creative that loves design!
+	        Developing beautiful webpages seems like a nice fit for you!
+	        <button>
+	            <text>Find Out More</text>
+	            <url>https://www.computerscience.org/careers/web-developer/</url>
+            </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>DATASCIENCE</pattern>
+	    <template>
+	        You'd be a great data scientist! You're an analytical person that 
+	        enjoys gaining real world insights from data! Data science seems like a nice fit for you!
+	        <button>
+	            <text>Find Out More</text>
+	            <url>https://www.computerscience.org/careers/data-science/how-to-become/</url>
+            </button>
+	    </template>
+	</category>
+</aiml>

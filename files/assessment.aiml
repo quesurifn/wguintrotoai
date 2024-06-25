@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>STARTASS</pattern>
+        <template>
+            Let's begin! Are you a creative person?
+            <button>
+                <text>Yes</text>
+                <postback>CREATIVE_Q2</postback>
+                <set></set>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>ANALYTICAL_Q1</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CREATIVE_Q2</pattern>
+        <template>
+            Do you like design?
+            <button>
+                <text>Yes</text>
+                <postback>WEBDEV</postback>
+                <set></set>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>ANALYTICAL_Q1</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ANALYTICAL_Q1</pattern>
+        <template>
+            Do you like numbers and math?
+            <button>
+                <text>Yes</text>
+                <postback>ANALYTICAL_Q2</postback>
+                <set></set>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>ROBOTICS_Q1</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ANALYTICAL_Q2</pattern>
+        <template>
+            Do you like using data to understand the world around you?
+            <button>
+                <text>Yes</text>
+                <postback>DATASCIENCE</postback>
+                <set></set>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>ROBOTICS_Q1</postback>
+            </button>
+        </template>
+    </category>
+    
+    
+    <category>
+        <pattern>ROBOTICS_Q1</pattern>
+        <template>
+            Do like robots?
+            <button>
+                <text>Yes</text>
+                <postback>ROBOTS_Q2</postback>
+                <set></set>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>GAMEDEV_Q1</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ROBOTICS_Q2</pattern>
+        <template>
+            Would you like to solve real world problems in everyday life with robotics?
+            <button>
+                <text>Yes</text>
+                <postback>ROBOTICS</postback>
+                <set></set>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>GAMEDEV_Q1</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>GAMEDEV_Q1</pattern>
+        <template>
+            Do you like video games?
+            <button>
+                <text>Yes</text>
+                <postback>GAMEDEV_Q1</postback>
+                <set></set>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>AI_Q1</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>GAMEDEV_Q2</pattern>
+        <template>
+            Do you like math as it relates to 3D space and time?
+            <button>
+                <text>Yes</text>
+                <postback>GAMEDEVELOPER</postback>
+                <set></set>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>AI_Q1</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>AI_Q1</pattern>
+        <template>
+            Do you like creating software that acts intelligent?
+            <button>
+                <text>Yes</text>
+                <postback>AI_Q2</postback>
+                <set></set>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>AI_Q1</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>AI_Q1</pattern>
+        <template>
+            Do you like calculus?
+            <button>
+                <text>Yes</text>
+                <postback>AIENGINEER</postback>
+                <set></set>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>DISTRIB_Q1</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DISTRIB_Q1</pattern>
+        <template>
+            Do you like making software as fast as possible?
+            <button>
+                <text>Yes</text>
+                <postback>DISTRIB_Q2</postback>
+                <set></set>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>NOMATCH</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DISTRIB_Q1</pattern>
+        <template>
+            Do you like thinking about how the internet works? 
+            <button>
+                <text>Yes</text>
+                <postback>DISTRIBUTED_ENGINEER</postback>
+                <set></set>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>NOMATCH</postback>
+            </button>
+        </template>
+    </category>
+    
+</aiml>

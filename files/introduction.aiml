@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Hello, my name is botsy. I help you choose the best CS path! Would you like to start the assessment?
+            <button>
+                <text>Yes</text>
+                <postback>STARTASS</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>NOTREADY</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>HELLO ^</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+    
+    <category>
+        <pattern>Hi ^</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+    
+    <category>
+        <pattern>NOTREADY</pattern>
+        <template>
+            Ok! Let us know when you're ready!
+        </template>
+    </category>
+</aiml>
