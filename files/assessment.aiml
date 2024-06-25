@@ -7,7 +7,6 @@
             <button>
                 <text>Yes</text>
                 <postback>CREATIVE_Q2</postback>
-                <set></set>
             </button>
             <button>
                 <text>No</text>
@@ -23,7 +22,6 @@
             <button>
                 <text>Yes</text>
                 <postback>WEBDEV</postback>
-                <set></set>
             </button>
             <button>
                 <text>No</text>
@@ -39,7 +37,7 @@
             <button>
                 <text>Yes</text>
                 <postback>ANALYTICAL_Q2</postback>
-                <set></set>
+
             </button>
             <button>
                 <text>No</text>
@@ -55,7 +53,6 @@
             <button>
                 <text>Yes</text>
                 <postback>DATASCIENCE</postback>
-                <set></set>
             </button>
             <button>
                 <text>No</text>
@@ -88,7 +85,6 @@
             <button>
                 <text>Yes</text>
                 <postback>ROBOTICS</postback>
-                <set></set>
             </button>
             <button>
                 <text>No</text>
@@ -104,7 +100,6 @@
             <button>
                 <text>Yes</text>
                 <postback>GAMEDEV_Q1</postback>
-                <set></set>
             </button>
             <button>
                 <text>No</text>
@@ -120,7 +115,6 @@
             <button>
                 <text>Yes</text>
                 <postback>GAMEDEVELOPER</postback>
-                <set></set>
             </button>
             <button>
                 <text>No</text>
@@ -136,7 +130,6 @@
             <button>
                 <text>Yes</text>
                 <postback>AI_Q2</postback>
-                <set></set>
             </button>
             <button>
                 <text>No</text>
@@ -152,7 +145,6 @@
             <button>
                 <text>Yes</text>
                 <postback>AIENGINEER</postback>
-                <set></set>
             </button>
             <button>
                 <text>No</text>
@@ -168,7 +160,6 @@
             <button>
                 <text>Yes</text>
                 <postback>DISTRIB_Q2</postback>
-                <set></set>
             </button>
             <button>
                 <text>No</text>
@@ -184,7 +175,6 @@
             <button>
                 <text>Yes</text>
                 <postback>DISTRIBUTED_ENGINEER</postback>
-                <set></set>
             </button>
             <button>
                 <text>No</text>
