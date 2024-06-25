@@ -6,17 +6,17 @@
             Let's begin! Are you a creative person?
             <button>
                 <text>Yes</text>
-                <postback>CREATIVE_Q2</postback>
+                <postback>CREATIVEQ2</postback>
             </button>
             <button>
                 <text>No</text>
-                <postback>ANALYTICAL_Q1</postback>
+                <postback>ANALYTICALQ1</postback>
             </button>
         </template>
     </category>
     
     <category>
-        <pattern>CREATIVE_Q2</pattern>
+        <pattern>CREATIVEQ2</pattern>
         <template>
             Do you like design?
             <button>
@@ -25,29 +25,29 @@
             </button>
             <button>
                 <text>No</text>
-                <postback>ANALYTICAL_Q1</postback>
+                <postback>ANALYTICALQ1</postback>
             </button>
         </template>
     </category>
     
     <category>
-        <pattern>ANALYTICAL_Q1</pattern>
+        <pattern>ANALYTICALQ1</pattern>
         <template>
             Do you like numbers and math?
             <button>
                 <text>Yes</text>
-                <postback>ANALYTICAL_Q2</postback>
+                <postback>ANALYTICALQ2</postback>
 
             </button>
             <button>
                 <text>No</text>
-                <postback>ROBOTICS_Q1</postback>
+                <postback>ROBOTICSQ1</postback>
             </button>
         </template>
     </category>
     
     <category>
-        <pattern>ANALYTICAL_Q2</pattern>
+        <pattern>ANALYTICALQ2</pattern>
         <template>
             Do you like using data to understand the world around you?
             <button>
@@ -56,30 +56,30 @@
             </button>
             <button>
                 <text>No</text>
-                <postback>ROBOTICS_Q1</postback>
+                <postback>ROBOTICSQ1</postback>
             </button>
         </template>
     </category>
     
     
     <category>
-        <pattern>ROBOTICS_Q1</pattern>
+        <pattern>ROBOTICSQ1</pattern>
         <template>
             Do like robots?
             <button>
                 <text>Yes</text>
-                <postback>ROBOTS_Q2</postback>
+                <postback>ROBOTICSQ2</postback>
                 <set></set>
             </button>
             <button>
                 <text>No</text>
-                <postback>GAMEDEV_Q1</postback>
+                <postback>GAMEDEVQ1</postback>
             </button>
         </template>
     </category>
     
     <category>
-        <pattern>ROBOTICS_Q2</pattern>
+        <pattern>ROBOTICSQ2</pattern>
         <template>
             Would you like to solve real world problems in everyday life with robotics?
             <button>
@@ -88,28 +88,28 @@
             </button>
             <button>
                 <text>No</text>
-                <postback>GAMEDEV_Q1</postback>
+                <postback>GAMEDEVQ1</postback>
             </button>
         </template>
     </category>
     
     <category>
-        <pattern>GAMEDEV_Q1</pattern>
+        <pattern>GAMEDEVQ1</pattern>
         <template>
             Do you like video games?
             <button>
                 <text>Yes</text>
-                <postback>GAMEDEV_Q1</postback>
+                <postback>GAMEDEVQ1</postback>
             </button>
             <button>
                 <text>No</text>
-                <postback>AI_Q1</postback>
+                <postback>AIQ1</postback>
             </button>
         </template>
     </category>
     
     <category>
-        <pattern>GAMEDEV_Q2</pattern>
+        <pattern>GAMEDEVQ2</pattern>
         <template>
             Do you like math as it relates to 3D space and time?
             <button>
@@ -118,28 +118,28 @@
             </button>
             <button>
                 <text>No</text>
-                <postback>AI_Q1</postback>
+                <postback>AIQ1</postback>
             </button>
         </template>
     </category>
     
     <category>
-        <pattern>AI_Q1</pattern>
+        <pattern>AIQ1</pattern>
         <template>
             Do you like creating software that acts intelligent?
             <button>
                 <text>Yes</text>
-                <postback>AI_Q2</postback>
+                <postback>AIQ2</postback>
             </button>
             <button>
                 <text>No</text>
-                <postback>AI_Q1</postback>
+                <postback>AIQ1</postback>
             </button>
         </template>
     </category>
     
     <category>
-        <pattern>AI_Q1</pattern>
+        <pattern>AIQ2</pattern>
         <template>
             Do you like calculus?
             <button>
@@ -148,18 +148,18 @@
             </button>
             <button>
                 <text>No</text>
-                <postback>DISTRIB_Q1</postback>
+                <postback>DISTRIBQ1</postback>
             </button>
         </template>
     </category>
     
     <category>
-        <pattern>DISTRIB_Q1</pattern>
+        <pattern>DISTRIBQ1</pattern>
         <template>
             Do you like making software as fast as possible?
             <button>
                 <text>Yes</text>
-                <postback>DISTRIB_Q2</postback>
+                <postback>DISTRIBQ2</postback>
             </button>
             <button>
                 <text>No</text>
@@ -169,7 +169,7 @@
     </category>
     
     <category>
-        <pattern>DISTRIB_Q1</pattern>
+        <pattern>DISTRIBQ1</pattern>
         <template>
             Do you like thinking about how the internet works? 
             <button>
