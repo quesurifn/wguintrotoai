@@ -80,7 +80,7 @@
     <category>
         <pattern>ROBOTICSQ2</pattern>
         <template>
-            Would you like to solve real world problems in everyday life with robotics?
+            Do you have an electrical engineering background in addition to computer science?
             <button>
                 <text>Yes</text>
                 <postback>ROBOTICS</postback>
