@@ -24,4 +24,52 @@
             </button>
 	    </template>
 	</category>
+	
+	<category>
+	    <pattern>AIENGINEER</pattern>
+	    <template>
+            You enjoy making intelligent software and have a calculus background. You'd be a great AI Engineer!
+	        <button>
+	            <text>Find Out More</text>
+	            <url>https://www.coursera.org/articles/ai-engineer</url>
+            </button>
+	    </template>
+	</category>
+	
+	
+	<category>
+	    <pattern>GAMEDEV</pattern>
+	    <template>
+	        You like video games and have a background in 3D vector math!
+	        <button>
+	            <text>Find Out More</text>
+	            <url>https://www.computerscience.org/careers/video-game-designer/</url>
+            </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>ROBOTICS</pattern>
+	    <template>
+	        You love robots and have an electrical engineering background. You'd be a great robotics engineer! 
+	        <button>
+	            <text>Find Out More</text>
+	            <url>https://www.mtu.edu/ece/undergraduate/robotics/what-is/</url>
+            </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>NOMATCH</pattern>
+	    <template>
+	        Looks like you're not cutout for Computer Science!
+	        <button>
+	            <text>Find Out More</text>
+	            <url>https://resources.noodle.com/articles/am-i-cut-out-for-computer-science/</url>
+            </button>
+	    </template>
+	</category>
+
+
+
 </aiml>

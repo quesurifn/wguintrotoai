@@ -37,7 +37,6 @@
             <button>
                 <text>Yes</text>
                 <postback>ANALYTICALQ2</postback>
-
             </button>
             <button>
                 <text>No</text>
@@ -99,7 +98,7 @@
             Do you like video games?
             <button>
                 <text>Yes</text>
-                <postback>GAMEDEVQ1</postback>
+                <postback>GAMEDEVQ2</postback>
             </button>
             <button>
                 <text>No</text>
@@ -114,7 +113,7 @@
             Do you like math as it relates to 3D space and time?
             <button>
                 <text>Yes</text>
-                <postback>GAMEDEVELOPER</postback>
+                <postback>GAMEDEV</postback>
             </button>
             <button>
                 <text>No</text>
@@ -133,7 +132,7 @@
             </button>
             <button>
                 <text>No</text>
-                <postback>AIQ1</postback>
+                <postback>NOMATCH</postback>
             </button>
         </template>
     </category>
@@ -148,39 +147,10 @@
             </button>
             <button>
                 <text>No</text>
-                <postback>DISTRIBQ1</postback>
-            </button>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>DISTRIBQ1</pattern>
-        <template>
-            Do you like making software as fast as possible?
-            <button>
-                <text>Yes</text>
-                <postback>DISTRIBQ2</postback>
-            </button>
-            <button>
-                <text>No</text>
                 <postback>NOMATCH</postback>
             </button>
         </template>
     </category>
     
-    <category>
-        <pattern>DISTRIBQ1</pattern>
-        <template>
-            Do you like thinking about how the internet works? 
-            <button>
-                <text>Yes</text>
-                <postback>DISTRIBUTED_ENGINEER</postback>
-            </button>
-            <button>
-                <text>No</text>
-                <postback>NOMATCH</postback>
-            </button>
-        </template>
-    </category>
-    
+
 </aiml>
