@@ -40,7 +40,7 @@
 	<category>
 	    <pattern>GAMEDEV</pattern>
 	    <template>
-	        You like video games and have a background in 3D vector math!
+	        You like video games and have a background in 3D vector math! You'd be a great Game Developer!
 	        <button>
 	            <text>Find Out More</text>
 	            <url>https://www.computerscience.org/careers/video-game-designer/</url>
